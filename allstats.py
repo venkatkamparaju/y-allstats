@@ -12,7 +12,8 @@ def analyze_spreadsheet(file_path):
 
     # Read the spreadsheet into a DataFrame
     df = pd.read_csv(file_path)
-
+    # Print the DataFrame
+    print(df)
     # Calculate statistical values
     mean = df.mean()
     median = df.median()
